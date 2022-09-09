@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>for loop</title>
+</head>
+<body>
+<script>
+	var name = prompt("Enter your name");
+	for (var i = 0; i<name.length; i++) {
+			
+			if (name[i]=="a" || name[i]=="e" || name[i]=="i" || name[i]=="o" || name[i]=="u") {
+				
+				continue;
+			}
+			document.write(name[i]+"<br>");
+		}
+</script>
+</body>
+</html>
